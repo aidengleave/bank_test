@@ -7,7 +7,6 @@ gem 'rubocop'
 gem 'simplecov'
 gem 'simplecov-console'
 
-
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"

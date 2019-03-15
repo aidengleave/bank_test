@@ -13,3 +13,10 @@ RSpec.describe '#deposit' do
     expect { account.deposit(1) }.to change { account.balance }.by(1) 
   end
 end
+
+RSpec.describe '#withdraw' do
+  it 'user can remove from their account' do
+    account = Account.new(1)
+    expect { account.withdraw(1) }.to change { account.balance }.by(-1)
+  end
+end

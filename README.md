@@ -32,13 +32,16 @@ As an Account Holder
 So I can keep my money safe,
 I can deposit it into my account
 ```
+```
 As an Account Holder
 So I can spend my money
 I can withdraw it from my account.
 ```
+```
 As an Account Holder
 So I can track my spending accurately
 my transactions will include a timestamp
+```
 ```
 As an Account Holder
 So I can keep track of my money 

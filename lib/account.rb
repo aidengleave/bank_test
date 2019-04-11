@@ -5,12 +5,14 @@ class Account
     @balance = balance
   end
 
-  def deposit(amount)
+  def deposit(amount, date)
     @balance += amount
-  end
-
-  def withdraw(amount)
-    @balance -= amount
+    @date = date
   end
   
+  def withdraw(amount, date)
+    @balance -= amount
+    @date = date
+  end
+
 end
